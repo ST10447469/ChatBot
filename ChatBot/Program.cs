@@ -56,3 +56,16 @@ class Program
 
             RespondToUser(input);
         }
+        // Voice Greeting
+        static void PlayGreeting()
+        {
+            try
+            {
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer("welcome.wav.wav");
+                player.PlaySync();
+            }
+            catch
+            {
+
+            }
+        }
