@@ -84,5 +84,17 @@ class Program
                 ||----w |
                 ||     ||
   Stay Safe. Stay Smart. Stay Secure.
-  ==========================================
-");
+  ==========================================");
+            Console.ResetColor();
+        }
+
+        // Typing Effect
+        static void TypeText(string message)
+        {
+            foreach (char c in message)
+            {
+                Console.Write(c);
+                Thread.Sleep(20);
+            }
+            Console.WriteLine();
+        }
