@@ -69,3 +69,20 @@ class Program
 
             }
         }
+
+        // ASCII Logo
+        static void DisplayLogo()
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(@"
+  ==========================================
+     CYBERSECURITY AWARENESS BOT 
+  ==========================================
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+  Stay Safe. Stay Smart. Stay Secure.
+  ==========================================
+");
